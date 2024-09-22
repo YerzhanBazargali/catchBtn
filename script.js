@@ -1,6 +1,6 @@
 function func(btn){
-  const screenWidth = window.screen.width;
-  const screenHeight = window.screen.height;
+  const screenWidth = window.screen.width - btn.style.width;
+  const screenHeight = window.screen.height - btn.style.height;
   
   let xc = Math.floor(Math.random() * screenWidth);
   let yc = Math.floor(Math.random() * screenHeight);
