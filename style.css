@@ -2,4 +2,8 @@ button{
   position: absolute;
   top:25px;
   left:25px;
+  border-radius: 10%;
+  background:blue;
+  font-size:40px !important;
 }
+
