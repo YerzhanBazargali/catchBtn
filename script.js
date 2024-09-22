@@ -7,5 +7,5 @@ function func(btn){
   btn.style.top = yc + "px";
   btn.style.left = xc + "px";
   
-  alert(btn.height);
+  console.log(btn.style.height);
 }
